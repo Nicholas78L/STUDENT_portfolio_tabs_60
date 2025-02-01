@@ -14,8 +14,8 @@ st.subheader("Our Team")
 df = pandas.read_csv('data.csv')
 
 col1, gap1, col2, gap2, col3 = st.columns([1.5, 0.2, 1.5, 0.2, 1.5])
+# col1, gap1, col2, gap2, col3 = st.columns(5)
 
-# col1, gaps1, col2, gaps2, col3 = st.columns(5)
 # Задача состоит в том, чтобы пройти по всем строкам этого DataFrame (df)
 # и иметь возможность обращаться к значениям в каждой ячейке по имени столбца.
 
